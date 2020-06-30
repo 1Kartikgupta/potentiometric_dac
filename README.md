@@ -171,7 +171,7 @@ Given below is the 10 bit dac circuit diagram. The analog voltage is 3.3v an dig
 
 6) To exit ngspice, type the command: `quit`
 
-# Graphs
+# Prelayout Graphs
 
 ## Vout/Vref plot
 
@@ -208,7 +208,7 @@ DNL vs digital code for 0-31, 480-511, 992-1023 values:
 ## Integral Non-linearity (INL) graphs (@T=27C)
 
 INL vs digital code for 0-31 values:
-![INL_start](https://user-images.githubusercontent.com/67196401/85853249-cfc30800-b7cf-11ea-9ec9-8a5a3547b75f.JPG)
+![INL_lsb_start](https://user-images.githubusercontent.com/58501983/86098341-980bd700-bad3-11ea-8b5e-7caebafedb1d.JPG)
 
 INL vs digital code for 480-511 values:
 ![INL_middle](https://user-images.githubusercontent.com/67196401/85853255-d0f43500-b7cf-11ea-8311-a1b0d5d61781.JPG)
@@ -218,3 +218,18 @@ INL vs digital code for 992-1023 values:
 
 INL vs digital code for 0-31, 480-511, 992-1023 values:
 ![INL_all](https://user-images.githubusercontent.com/67196401/85853260-d2bdf880-b7cf-11ea-82d8-ef95eafae096.JPG)
+
+# Inverter layout and simulation
+ The layout has been designed in electric vlsi layout design software. The layout is shown below.
+ 
+ ![inverter_layout](https://user-images.githubusercontent.com/58501983/86098347-9c37f480-bad3-11ea-9b9d-85427eb6039d.JPG)
+ 
+ The below picture shows the simulation output when a DC input is given.
+ 
+ ![inverte_layout_dcinput](https://user-images.githubusercontent.com/58501983/86098591-f8027d80-bad3-11ea-8e6a-88e41da91e6c.JPG)
+
+The picture below shows the simuation output when a piecewise linear input is given.
+
+![inverter pwl input layout](https://user-images.githubusercontent.com/58501983/86098578-f2a53300-bad3-11ea-95fa-0a05059c4713.JPG)
+ 
+ 
