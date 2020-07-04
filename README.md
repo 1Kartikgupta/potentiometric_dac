@@ -234,8 +234,8 @@ INL vs digital code for 0-31, 480-511, 992-1023 values:
  
  The figure below  shows the layout of the switch whose schematicisshown above using magic software
  
- ![3bitlayout](https://user-images.githubusercontent.com/67196401/86513017-6a50c600-be24-11ea-844d-247b946db8dd.JPG)
- 
+ ![switchlayout](https://user-images.githubusercontent.com/67196401/86513473-35467280-be28-11ea-9d4d-ff630d0533e3.JPG)
+
  ## Resistor layout
  The picture beow shows the layut of a resistor.
  
