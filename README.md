@@ -251,10 +251,14 @@ INL vs digital code for 0-31, 480-511, 992-1023 values:
  
  ## schematic
  
+ 3-bit dac schematic designed using ltspice
+ 
  ![3bit](https://user-images.githubusercontent.com/67196401/86512953-c8c97480-be23-11ea-8f9a-558afd8cb391.JPG)
  
  ## layout
-  
+ 
+ 3_bit dac layout designed using magic
+ 
  ![3bitlayout](https://user-images.githubusercontent.com/67196401/86512846-21e4d880-be23-11ea-92f8-83a2730f510a.JPG)
 
  ## inputs
@@ -265,7 +269,8 @@ INL vs digital code for 0-31, 480-511, 992-1023 values:
  
  ![jst_3bitoutput_layout](https://user-images.githubusercontent.com/67196401/86512807-e1855a80-be22-11ea-9d18-6628bcb4d4b2.JPG)
 
- 
+ offset voltage= 200mv
+ full scale voltage : actual= 2.75v  ideal output= 2.88v
  
  
  
