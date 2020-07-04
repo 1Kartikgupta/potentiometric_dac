@@ -219,17 +219,54 @@ INL vs digital code for 992-1023 values:
 INL vs digital code for 0-31, 480-511, 992-1023 values:
 ![INL_all](https://user-images.githubusercontent.com/67196401/85853260-d2bdf880-b7cf-11ea-82d8-ef95eafae096.JPG)
 
-# Inverter layout and simulation
- The layout has been designed in electric vlsi layout design software. The layout is shown below.
+# Layout blocks
+ The layout has been designed in `magic vlsi layout design software`. For installation guidance, head on to https://www.udemy.com/join/login-popup/?next=/course/vsd-a-complete-guide-to-install-open-source-eda-tools/learn/lecture/15632226#overview.
  
- ![inverter_layout](https://user-images.githubusercontent.com/58501983/86098347-9c37f480-bad3-11ea-9b9d-85427eb6039d.JPG)
+ ## switch- a basic block in dac design
  
- The below picture shows the simulation output when a DC input is given.
+ ### schematic
  
- ![inverte_layout_dcinput](https://user-images.githubusercontent.com/58501983/86098591-f8027d80-bad3-11ea-8e6a-88e41da91e6c.JPG)
+ The picture below shows the schematicof sitch designed using ltspice
+ 
+ ![switch](https://user-images.githubusercontent.com/67196401/86513019-6cb32000-be24-11ea-89c6-65cb4f0ff9da.JPG)
+ 
+ ### layout
+ 
+ The figure below  shows the layout of the switch whose schematicisshown above using magic software
+ 
+ ![3bitlayout](https://user-images.githubusercontent.com/67196401/86513017-6a50c600-be24-11ea-844d-247b946db8dd.JPG)
+ 
+ ## Resistor layout
+ The picture beow shows the layut of a resistor.
+ 
+ ![resistorlayout](https://user-images.githubusercontent.com/67196401/86512800-ce728a80-be22-11ea-959c-235856d889f9.JPG)
+ 
+ ![resistorlayoutspice](https://user-images.githubusercontent.com/67196401/86512855-31fcb800-be23-11ea-8a6f-198574ea0193.JPG)
+ 
+ The polyresistor model is given below:
+ 
+ `.model polyResistor R ( TC1=0 TC2=0 RSH=7.7 DEFW=1.E-7 NARROW=0.0 TNOM=27)`
+ 
+ # Post-layout 3-bit dac simulation
+ 
+ ## schematic
+ 
+ ![3bit](https://user-images.githubusercontent.com/67196401/86512953-c8c97480-be23-11ea-8f9a-558afd8cb391.JPG)
+ 
+ ## layout
+  
+ ![3bitlayout](https://user-images.githubusercontent.com/67196401/86512846-21e4d880-be23-11ea-92f8-83a2730f510a.JPG)
 
-The picture below shows the simuation output when a piecewise linear input is given.
+ ## inputs
+ 
+ ![3bitlayoutinput](https://user-images.githubusercontent.com/67196401/86512839-1c878e00-be23-11ea-97cb-481a02f5365d.JPG)
+ 
+ ## output
+ 
+ ![jst_3bitoutput_layout](https://user-images.githubusercontent.com/67196401/86512807-e1855a80-be22-11ea-9d18-6628bcb4d4b2.JPG)
 
-![inverter pwl input layout](https://user-images.githubusercontent.com/58501983/86098578-f2a53300-bad3-11ea-95fa-0a05059c4713.JPG)
+ 
+ 
+ 
  
  
