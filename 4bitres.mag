@@ -1,0 +1,36 @@
+magic
+tech scmos
+timestamp 1594021735
+<< metal1 >>
+rect 343 177 351 182
+rect 345 131 350 177
+rect 242 126 350 131
+rect 242 55 247 126
+rect 242 50 329 55
+rect 325 39 329 50
+rect 102 9 110 16
+rect 102 5 106 9
+rect 361 7 369 12
+rect 255 3 265 7
+rect 325 -25 330 -16
+rect 240 -30 330 -25
+rect 240 -39 246 -30
+rect 241 -100 246 -39
+rect 241 -105 349 -100
+rect 343 -158 349 -105
+use 3bitres  3bitres_0
+timestamp 1594021735
+transform 1 0 79 0 1 142
+box -94 -128 267 200
+use vsdswitch  vsdswitch_0
+timestamp 1593965765
+transform 1 0 275 0 1 11
+box -17 -32 89 32
+use 3bitres  3bitres_1
+timestamp 1594021735
+transform 1 0 79 0 1 -193
+box -94 -128 267 200
+<< labels >>
+rlabel metal1 369 7 369 12 7 out_four
+rlabel metal1 255 3 255 7 1 D3!
+<< end >>
