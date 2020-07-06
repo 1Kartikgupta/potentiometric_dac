@@ -1,0 +1,118 @@
+magic
+tech scmos
+timestamp 1593965765
+<< nwell >>
+rect -17 1 11 30
+rect 21 1 49 30
+rect 57 -21 85 0
+<< ntransistor >>
+rect 70 10 72 14
+rect -4 -15 -2 -11
+rect 34 -15 36 -11
+<< ptransistor >>
+rect -4 7 -2 16
+rect 34 7 36 16
+rect 70 -15 72 -6
+<< ndiffusion >>
+rect 68 10 70 14
+rect 72 10 74 14
+rect -6 -15 -4 -11
+rect -2 -15 0 -11
+rect 32 -15 34 -11
+rect 36 -15 38 -11
+<< pdiffusion >>
+rect -6 7 -4 16
+rect -2 7 0 16
+rect 32 7 34 16
+rect 36 7 38 16
+rect 68 -15 70 -6
+rect 72 -15 74 -6
+<< ndcontact >>
+rect 63 10 68 14
+rect 74 10 79 14
+rect -11 -15 -6 -11
+rect 0 -15 5 -11
+rect 27 -15 32 -11
+rect 38 -15 43 -11
+<< pdcontact >>
+rect -11 7 -6 16
+rect 0 7 5 16
+rect 27 7 32 16
+rect 38 7 43 16
+rect 63 -15 68 -6
+rect 74 -15 79 -6
+<< psubstratepcontact >>
+rect -14 -27 -10 -23
+rect -6 -27 -2 -23
+rect 2 -27 6 -23
+<< nsubstratencontact >>
+rect -13 23 -9 27
+rect -5 23 -1 27
+rect 3 23 7 27
+<< polysilicon >>
+rect -4 16 -2 19
+rect 34 16 36 19
+rect 70 14 72 19
+rect -4 -4 -2 7
+rect -3 -5 -2 -4
+rect -3 -7 17 -5
+rect -3 -8 -2 -7
+rect -4 -11 -2 -8
+rect -4 -18 -2 -15
+rect 15 -21 17 -7
+rect 34 -11 36 7
+rect 70 4 72 10
+rect 52 2 72 4
+rect 34 -18 36 -15
+rect 52 -21 54 2
+rect 70 -6 72 2
+rect 70 -18 72 -15
+rect 15 -23 54 -21
+<< polycontact >>
+rect 30 -2 34 2
+rect -7 -8 -3 -4
+<< metal1 >>
+rect 50 28 54 32
+rect -15 27 8 28
+rect -15 23 -13 27
+rect -9 23 -5 27
+rect -1 23 3 27
+rect 7 23 8 27
+rect -15 22 8 23
+rect 27 26 54 28
+rect 27 23 79 26
+rect -11 16 -6 22
+rect 27 16 32 23
+rect 38 16 68 19
+rect 63 14 68 16
+rect 74 14 79 23
+rect 0 2 5 7
+rect 0 -2 30 2
+rect 63 0 68 10
+rect 85 0 89 1
+rect -14 -8 -7 -4
+rect 0 -11 5 -2
+rect 63 -3 89 0
+rect 63 -6 68 -3
+rect 85 -4 89 -3
+rect 43 -15 63 -11
+rect -11 -22 -6 -15
+rect -15 -23 9 -22
+rect -15 -27 -14 -23
+rect -10 -27 -6 -23
+rect -2 -27 2 -23
+rect 6 -27 9 -23
+rect -15 -28 9 -27
+rect 27 -24 32 -15
+rect 74 -24 79 -15
+rect 27 -28 79 -24
+rect 50 -32 54 -28
+<< labels >>
+rlabel metal1 -7 25 -7 25 5 vdd!
+rlabel metal1 -8 -26 -8 -26 1 gnd!
+rlabel metal1 50 -32 54 -32 1 in_2
+rlabel metal1 89 -4 89 1 7 VOUT
+rlabel metal1 50 32 54 32 5 in_1
+rlabel metal1 5 -2 5 2 1 invout
+rlabel metal1 -14 -8 -14 -4 3 dig_in
+<< end >>
