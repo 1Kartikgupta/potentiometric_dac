@@ -273,5 +273,5 @@ INL vs digital code for 0-31, 480-511, 992-1023 values:
  full scale voltage : actual= 2.75v  ideal output= 2.88v
  
  
- 
+ https://drive.google.com/drive/folders/1zP-qAC0sdN5NVALULU6T8fpf04dy2tVA?usp=sharing
  
